@@ -26,10 +26,10 @@ The research was conducted on data from 14 endometrial carcinoma patients with h
 
    <table align="center">
      <tr>
-       <td align="center"><img src="figs/fig1a.png" alt="img 1"></td>
-       <td align="center"><img src="figs/fig1b.png" alt="img 2"></td>
-        <td align="center"><img src="figs/fig1c.png" alt="img 3"></td>
-       <td align="center"><img src="figs/fig1d.png" alt="img 4"></td>       
+       <td align="center"><img src="figs/fig1a.png" alt="img 1a"></td>
+       <td align="center"><img src="figs/fig1b.png" alt="img 1b"></td>
+        <td align="center"><img src="figs/fig1c.png" alt="img 1c"></td>
+       <td align="center"><img src="figs/fig1d.png" alt="img 1d"></td>       
      </tr>
      <tr>
        <td align="center"><i><span style="font-size:smaller;">a)</span></i></td>
@@ -71,6 +71,25 @@ marked cross-shaped pixels featuring different signal response: 1- blood vessel,
    - Approximately 300 texture features computed using MaZda software
    - Features derived from parameter distributions within ROIs marked by radiologists
    - Feature selection using Fisher coefficient, mutual information, and classification error minimization
+  
+    <table align="center">
+     <tr>
+       <td align="center"><img src="figs/fig5a.png" alt="img 5a"></td>
+       <td align="center"><img src="figs/fig5b.png" alt="img 5b"></td>
+        <td align="center"><img src="figs/fig5c.png" alt="img 5c"></td>
+       <td align="center"><img src="figs/fig5d.png" alt="img 5d"></td>       
+     </tr>
+     <tr>
+       <td align="center"><i><span style="font-size:smaller;">a)</span></i></td>
+       <td align="center"><i><span style="font-size:smaller;">b)</span></i></td>
+       <td align="center"><i><span style="font-size:smaller;">c)</span></i></td>
+       <td align="center"><i><span style="font-size:smaller;">d)</span></i></td>
+     </tr>
+     <tr>
+       <td colspan="4" align="center"><i><span style="font-size:smaller;">Pharmacokinetic derived parameter maps for patient # 197: a) p<sub>1</sub>, b)
+t<sub>0</sub>, c) p<sub>3</sub>, d) p<sub>4</sub>.</span></i></td>
+     </tr>      
+   </table>
 
 4. **Classification and Clustering**:
    - Linear Discriminant Analysis for supervised grade classification
