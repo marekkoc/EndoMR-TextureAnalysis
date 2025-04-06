@@ -2,69 +2,55 @@
 # EndoMR-TextureAnalysis
 A repository for texture-based analysis of MR images in endometrial carcinoma classification. Implements extraction of texture features from pharmacokinetic parameter maps derived from DCE-MRI, ADC, and VIBE modalities. Includes tools for supervised and unsupervised classification to aid in tumor grading and characterization.
 
-
 ## Overview
-This repository contains comprehensive tools and algorithms for advanced texture analysis of multimodal MR images in endometrial carcinoma classification and characterization. The approach is based on a research study that evaluated texture parameters computed from blood pharmacokinetic maps derived from DCE-MRI as potential biomarkers for cancer characterization and grading.
+This repository contains tools and algorithms for texture analysis of MR images for endometrial carcinoma classification. The approach is based on a research study that evaluated texture parameters computed from blood pharmacokinetic maps derived from DCE-MRI as potential biomarkers for cancer characterization.
 
-## Background and Motivation
-Endometrial cancer is the most common pelvic gynecological malignancy in high-income countries with increasing incidence. Current preoperative assessment methods have limitations in accuracy and reproducibility, creating a need for improved imaging-based techniques.
-
+## Background
 The method analyzes various MRI modalities including:
 - Dynamic Contrast-Enhanced (DCE) MRI parameter maps (p₁, p₃, p₄, t₀)
 - Apparent Diffusion Coefficient (ADC) maps
-- T1-weighted VIBE (Volumetric Interpolated Breath-hold Examination) images
+- T1-weighted VIBE images
 
-Our computational approach extracts texture features from these images and applies both unsupervised clustering and supervised classification (LDA) to correlate image features with histological tumor grades, providing potential biomarkers for non-invasive tumor assessment.
+Our computational approach extracts texture features from these images and applies both unsupervised clustering and supervised classification (LDA) to correlate image features with histological tumor grades.
 
-## Key Features
-- **Image Preprocessing Pipeline**: Tools for converting DICOM to NIFTI format, and ROI extraction
-- **Pharmacokinetic Modeling**: Implementation of 6-parameter model for DCE-MRI signal analysis:
-  - p₀: Signal baseline
-  - p₁: Response amplitude
-  - p₂: Transition slope
-  - p₃: Exponential signal decrease
-  - p₄: Initial signal increase
-  - t₀: Bolus arrival time
-- **Texture Analysis**: Extraction of 300+ texture features using:
-  - Co-occurrence matrices
-  - Run-length matrices
-  - Gradient features
-  - Wavelet-based features
-- **Feature Selection**: Algorithms based on:
-  - Fisher coefficient (F)
-  - Mutual information (MI)
-  - Classification error minimization (P)
-- **Classification Methods**:
-  - Supervised: Linear Discriminant Analysis (LDA), k-Nearest Neighbor
-  - Unsupervised: k-means clustering
-- **Visualization Tools**:
-  - Parameter maps visualization
-  - Texture feature visualization
-  - Clustering results
-  - Classification performance metrics
+## Study Design
+The research was conducted on data from 14 endometrial carcinoma patients with histologically verified diagnosis. Each patient's dataset contained six different image types: four pharmacokinetic parameter maps derived from DCE-MRI signal modeling, and two conventional MR images (ADC and VIBE). The histological grade provided by pathologists after tumor extraction served as ground truth for supervised learning experiments.
 
-## Experimental Results
-Initial experiments demonstrate that texture features—particularly from parameter p₃ and ADC maps—provide promising discrimination between different grades of endometrial carcinoma. The p₃ texture map provided the best discrimination (resubstitution error: 2/14, cross-validation error: 3/14), with ADC, p₁, and VIBE also showing good performance.
+## Methodology
+1. **Image Acquisition**: 
+   - 1.5T MRI system (Siemens Avanto)
+   - VIBE: 192×192 matrix, 48 slices, 1.3×1.3×2.0 mm³ voxels
+   - DCE-MRI: 256×256 matrix, 12 slices, 1.17×1.17×5.0 mm³ voxels, 160 volumes at 2.49s intervals
+   - DWI: 128×128 matrix, 20 slices, 2.34×2.34×6.0 mm³ voxels
+
+2. **Signal Modeling**:
+   - 6-parameter pharmacokinetic model fitted to DCE-MRI time courses
+   - Parameters include signal baseline (p₀), amplitude (p₁), transition slope (p₂), decay rate (p₃), initial rise (p₄), and bolus arrival time (t₀)
+
+3. **Texture Analysis**:
+   - Approximately 300 texture features computed using MaZda software
+   - Features derived from parameter distributions within ROIs marked by radiologists
+   - Feature selection using Fisher coefficient, mutual information, and classification error minimization
+
+4. **Classification and Clustering**:
+   - Linear Discriminant Analysis for supervised grade classification
+   - k-means clustering for unsupervised tissue characterization
+   - Evaluation using resubstitution and leave-one-out cross-validation errors
+
+## Key Results
+- Parameter p₃ texture map showed best discrimination between carcinoma grades (resubstitution error: 14.3%, cross-validation error: 21.4%)
+- ADC maps also demonstrated good classification performance
+- Well-separated clusters in unsupervised analysis confirmed information content in texture features
+- Colored visualization of clustering results was assessed as useful by radiologists for anatomical and pathophysiological exploration
 
 ## Potential Applications
-- Preoperative grade prediction in endometrial carcinoma
+- Preoperative assessment of endometrial carcinoma grade
 - Non-invasive tumor characterization
-- Personalized treatment planning
-- Integration into clinical decision support systems
-- Research platform for exploring correlations between MRI texture features and histopathology
-- Methodology transferable to other tumor types
+- Support for surgical therapy planning
+- Potential transferability to other tumor systems
+- Contribution to personalized modeling of human blood-vessel systems in cancer
 
-## Dependencies
-- Python 3.7+
-- SimpleITK
-- scikit-learn
-- MATLAB (for some legacy components)
-- ITK-SNAP
-- MaZda texture analysis software
-
-## Future Work
-- Deep learning-based feature extraction
-- Radiomics analysis integration
-- Multiparametric scoring systems
-- Clinical validation studies
-- Extension to other gynecological cancers
+## Limitations
+- Small sample size (pilot study with 14 patients)
+- Need for validation on larger datasets
+- Manual ROI selection requiring expert knowledge
