@@ -38,7 +38,7 @@ The research was conducted on data from 14 endometrial carcinoma patients with h
        <td align="center"><i><span style="font-size:smaller;">d)</span></i></td>
      </tr>
      <tr>
-    <td colspan="2" align="center"><i><span style="font-size:smaller;">Figure 1. Selected cross-sections of 3D volumes for patient #126:
+    <td colspan="4" align="center"><i><span style="font-size:smaller;">Figure 1. Selected cross-sections of 3D volumes for patient #126:
        a) VIBE, b) VIBE with marked region of interest (red circle) c) ADC, d) DCE-MRI.</span></i></td>
   </tr>
       
