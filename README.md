@@ -38,10 +38,9 @@ The research was conducted on data from 14 endometrial carcinoma patients with h
        <td align="center"><i><span style="font-size:smaller;">d)</span></i></td>
      </tr>
      <tr>
-    <td colspan="4" align="center"><i><span style="font-size:smaller;">Figure 1. Selected cross-sections of 3D volumes for patient #126:<br>
+       <td colspan="4" align="center"><i><span style="font-size:smaller;">Selected cross-sections of 3D volumes for patient #126:<br>
        a) VIBE, b) VIBE with marked region of interest (red circle) c) ADC, d) DCE-MRI.</span></i></td>
-  </tr>
-      
+     </tr>      
    </table>
 
   
@@ -62,6 +61,10 @@ The research was conducted on data from 14 endometrial carcinoma patients with h
        <td align="center"><i><span style="font-size:smaller;">b)</span></i></td>
        <td align="center"><i><span style="font-size:smaller;">c)</span></i></td>
      </tr>
+     <tr>
+       <td colspan="4" align="center"><i><span style="font-size:smaller;">Signal model parameters definition: a) 2D DCE-MRI slice with
+marked cross-shaped pixels featuring different signal response: 1- blood vessel, 2-non-enhanced tissue (fat), 3- endometrium, b) signals corresponding to ROIs, red thick line - average signal from artery (ROI #1), black thick line - average signal in non-enhanced tissue (ROI #2), blue thick line average signal from endometrium (ROI #3), c) illustration of the model parameters meaning.</span></i></td>
+     </tr> 
    </table>
 
 3. **Texture Analysis**:
