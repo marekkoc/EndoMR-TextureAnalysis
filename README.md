@@ -23,7 +23,7 @@ The research was conducted on data from 14 endometrial carcinoma patients with h
    - DCE-MRI: 256×256 matrix, 12 slices, 1.17×1.17×5.0 mm³ voxels, 160 volumes at 2.49s intervals
    - DWI: 128×128 matrix, 20 slices, 2.34×2.34×6.0 mm³ voxels
 
-<br><br><br>
+<br>
    <table align="center">
      <tr>
        <td align="center"><img src="figs/fig1a.png" alt="img 1a"></td>
@@ -42,13 +42,14 @@ The research was conducted on data from 14 endometrial carcinoma patients with h
        a) VIBE, b) VIBE with marked region of interest (red circle) c) ADC, d) DCE-MRI.</span></i></td>
      </tr>      
    </table>
-<br><br><br>  
+<br>
 
 
 2. **Signal Modeling**:
    - 6-parameter pharmacokinetic model fitted to DCE-MRI time courses
    - Parameters include signal baseline (p₀), amplitude (p₁), transition slope (p₂), decay rate (p₃), initial rise (p₄), and bolus arrival time (t₀)
-  
+
+     <br>
      <table align="center">
      <tr>
        <td align="center"><img src="figs/fig3a.png" alt="fig3a"></td>
@@ -65,13 +66,14 @@ The research was conducted on data from 14 endometrial carcinoma patients with h
 marked cross-shaped pixels featuring different signal response: 1- blood vessel, 2-non-enhanced tissue (fat), 3- endometrium, b)&nbsp;signals corresponding to ROIs, red thick line - average signal from artery (ROI #1), black thick line - average signal in non-enhanced tissue (ROI #2), blue thick line average signal from endometrium (ROI #3), c)&nbsp;illustration of the model parameters meaning.</span></i></td>
      </tr> 
    </table>
+   <br>
 
 3. **Texture Analysis**:
    - Approximately 300 texture features computed using MaZda software
    - Features derived from parameter distributions within ROIs marked by radiologists
    - Feature selection using Fisher coefficient, mutual information, and classification error minimization
 
-     <br><br><br>
+   <br>
     <table align="center">
      <tr>
        <td align="center"><img src="figs/fig5a.png" style="width: 75%; height: auto;" alt="img 5a"></td>
@@ -89,14 +91,14 @@ marked cross-shaped pixels featuring different signal response: 1- blood vessel,
        <td colspan="4" align="center"><i><span style="font-size:smaller;">Pharmacokinetic derived parameter maps for patient #197: a) p<sub>1</sub>, b)t<sub>0</sub>, c) p<sub>3</sub>, d) p<sub>4</sub>.</span></i></td>
      </tr>      
    </table>
-   <br><br><br>
+   <br>
 
-4. **Classification and Clustering**:
+3. **Classification and Clustering**:
    - Linear Discriminant Analysis for supervised grade classification
    - k-means clustering for unsupervised tissue characterization
    - Evaluation using resubstitution and leave-one-out cross-validation errors
 
-   <br><br><br>
+   <br>
    <table align="center">
      <tr>
        <td align="center"><img src="figs/fig7a.png" alt="fig7a"></td>
@@ -110,7 +112,7 @@ marked cross-shaped pixels featuring different signal response: 1- blood vessel,
        <td colspan="4" align="center"><i><span style="font-size:smaller;">Scatterplots for first three Fisher-coefficient-ranked texture features obtained for the parameter maps of the training set: a)&nbsp;p1&#160;(F=93.6 for the three classes), b) ADC (F=64.7 for the three classes)</span></i></td>
      </tr> 
    </table>
-   <br><br><br>
+   <br>
 
 ## Key Results
 - Parameter p₃ texture map showed best discrimination between carcinoma grades (resubstitution error: 14.3%, cross-validation error: 21.4%)
@@ -118,7 +120,7 @@ marked cross-shaped pixels featuring different signal response: 1- blood vessel,
 - Well-separated clusters in unsupervised analysis confirmed information content in texture features
 - Colored visualization of clustering results was assessed as useful by radiologists for anatomical and pathophysiological exploration
 
-<br><br><br>
+<br>
 <table align="center">
      <tr>
        <td align="center"><img src="figs/fig9a.png" alt="fig9a"></td>
@@ -132,7 +134,7 @@ marked cross-shaped pixels featuring different signal response: 1- blood vessel,
        <td colspan="4" align="center"><i><span style="font-size:smaller;">Average signals measured inside ROI for patient #157. The whole signal (for each DCE examination) range divided into five clusters: a) region of interests with pixels assigned to each cluster marked with different colour, b) averaged time-courses plots in clusters.</span></i></td>
      </tr> 
    </table>
-   <br><br><br>
+   <br>
 
 ## Potential Applications
 - Preoperative assessment of endometrial carcinoma grade
