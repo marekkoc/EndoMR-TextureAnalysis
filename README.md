@@ -141,6 +141,14 @@ marked cross-shaped pixels featuring different signal response: 1- blood vessel,
 - Need for validation on larger datasets
 - Manual ROI selection requiring expert knowledge
 
+## Future work
+- Application of convolutional neural networks (CNNs) for automatic feature extraction instead of manually designed texture features
+- Implementation of tumor region segmentation using U-Net architecture, eliminating the need for manual ROI delineation
+- Utilization of transfer learning techniques on pre-trained models to improve classification with limited sample size
+- Development of AI interpretation methods (e.g., activation maps, GradCAM) for better understanding of significant regions in MR images
+- Integration of multimodal data (DCE, ADC, VIBE) in a single end-to-end deep learning model
+- Application of federated learning techniques to enable collaboration between research centers without sharing sensitive patient data
+
 ## Publications
 1. Texture Parameters of DCE-Derived Blood Pharmacokinetic Maps as Possible Biomarkers of Endometrial Carcinoma Grade, M. Kociński, A. Materka, A. Lundervold, Helga B. Salvesen, Sigmund Ytre-Hauge, Ingfrid S. Haldorsen, Magnetic Resonance Materials in Physics, Biology and Medicine, Volume 19, Issue 1, Suplement, September 2016
 
