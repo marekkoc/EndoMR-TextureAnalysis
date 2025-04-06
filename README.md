@@ -22,10 +22,23 @@ The research was conducted on data from 14 endometrial carcinoma patients with h
    - VIBE: 192×192 matrix, 48 slices, 1.3×1.3×2.0 mm³ voxels
    - DCE-MRI: 256×256 matrix, 12 slices, 1.17×1.17×5.0 mm³ voxels, 160 volumes at 2.49s intervals
    - DWI: 128×128 matrix, 20 slices, 2.34×2.34×6.0 mm³ voxels
+  
+
 
 2. **Signal Modeling**:
    - 6-parameter pharmacokinetic model fitted to DCE-MRI time courses
    - Parameters include signal baseline (p₀), amplitude (p₁), transition slope (p₂), decay rate (p₃), initial rise (p₄), and bolus arrival time (t₀)
+  
+     <table align="center">
+     <tr>
+       <td><img src="figs/results1.png" alt="Results 1"></td>
+       <td><img src="figs/results2.png" alt="Results 2"></td>
+     </tr>
+     <tr>
+       <td align="center"><i><span style="font-size:smaller;">Fig. 1: Analysis window</span></i></td>
+       <td align="center"><i><span style="font-size:smaller;">Fig. 2: Parameter maps</span></i></td>
+     </tr>
+   </table>
 
 3. **Texture Analysis**:
    - Approximately 300 texture features computed using MaZda software
