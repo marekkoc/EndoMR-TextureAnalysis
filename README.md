@@ -34,8 +34,8 @@ The research was conducted on data from 14 endometrial carcinoma patients with h
        <td align="center"><i><span style="font-size:smaller;">b)</span></i></td>
      </tr>
      <tr>
-       <td><img src="figs/fig1c.png" alt="img 3"></td>
-       <td><img src="figs/fig1d.png" alt="img 4"></td>
+       <td align="center"><img src="figs/fig1c.png" alt="img 3"></td>
+       <td align="center"><img src="figs/fig1d.png" alt="img 4"></td>
      </tr>
      <tr>
        <td align="center"><i><span style="font-size:smaller;">c)</span></i></td>
