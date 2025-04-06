@@ -76,7 +76,7 @@ marked cross-shaped pixels featuring different signal response: 1- blood vessel,
      <tr>
        <td align="center"><img src="figs/fig5a.png" alt="img 5a"></td>
        <td align="center"><img src="figs/fig5b.png" alt="img 5b"></td>
-        <td align="center"><img src="figs/fig5c.png" alt="img 5c"></td>
+       <td align="center"><img src="figs/fig5c.png" alt="img 5c"></td>
        <td align="center"><img src="figs/fig5d.png" alt="img 5d"></td>       
      </tr>
      <tr>
@@ -86,7 +86,7 @@ marked cross-shaped pixels featuring different signal response: 1- blood vessel,
        <td align="center"><i><span style="font-size:smaller;">d)</span></i></td>
      </tr>
      <tr>
-       <td colspan="4" align="center"><i><span style="font-size:smaller;">Pharmacokinetic derived parameter maps for patient # 197: a) p<sub>1</sub>, b)t<sub>0</sub>, c) p<sub>3</sub>, d) p<sub>4</sub>.</span></i></td>
+       <td colspan="4" align="center"><i><span style="font-size:smaller;">Pharmacokinetic derived parameter maps for patient #197: a) p<sub>1</sub>, b)t<sub>0</sub>, c) p<sub>3</sub>, d) p<sub>4</sub>.</span></i></td>
      </tr>      
    </table>
 
@@ -94,6 +94,19 @@ marked cross-shaped pixels featuring different signal response: 1- blood vessel,
    - Linear Discriminant Analysis for supervised grade classification
    - k-means clustering for unsupervised tissue characterization
    - Evaluation using resubstitution and leave-one-out cross-validation errors
+  
+     <table align="center">
+     <tr>
+       <td align="center"><img src="figs/fig7a.png" alt="fig7a"></td>
+       <td align="center"><img src="figs/fig7b.png" alt="fig7b"></td>
+     </tr>
+     <tr>
+       <td align="center"><i><span style="font-size:smaller;">a)</span></i></td>
+       <td align="center"><i><span style="font-size:smaller;">b)</span></i></td>
+     </tr>
+     <tr>
+       <td colspan="4" align="center"><i><span style="font-size:smaller;">Scatterplots for first three Fisher-coefficient-ranked texture features obtained for the parameter maps of the training set: a) p1 (F=93.6 for the three classes), b) ADC (F=64.7 for the three classes)</span></i></td>
+     </tr> 
 
 ## Key Results
 - Parameter p₃ texture map showed best discrimination between carcinoma grades (resubstitution error: 14.3%, cross-validation error: 21.4%)
