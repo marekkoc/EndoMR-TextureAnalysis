@@ -1,11 +1,7 @@
+
 # EndoMR-TextureAnalysis
 A repository for texture-based analysis of MR images in endometrial carcinoma classification. Implements extraction of texture features from pharmacokinetic parameter maps derived from DCE-MRI, ADC, and VIBE modalities. Includes tools for supervised and unsupervised classification to aid in tumor grading and characterization.
 
-
-
-Oto rozszerzona wersja opisu repozytorium:
-
-# EndoMR-TextureAnalysis
 
 ## Overview
 This repository contains comprehensive tools and algorithms for advanced texture analysis of multimodal MR images in endometrial carcinoma classification and characterization. The approach is based on a research study that evaluated texture parameters computed from blood pharmacokinetic maps derived from DCE-MRI as potential biomarkers for cancer characterization and grading.
