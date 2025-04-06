@@ -17,7 +17,7 @@ The method analyzes various MRI modalities including:
 Our computational approach extracts texture features from these images and applies both unsupervised clustering and supervised classification (LDA) to correlate image features with histological tumor grades, providing potential biomarkers for non-invasive tumor assessment.
 
 ## Key Features
-- **Image Preprocessing Pipeline**: Tools for converting DICOM to NIFTI format, image registration, and ROI extraction
+- **Image Preprocessing Pipeline**: Tools for converting DICOM to NIFTI format, and ROI extraction
 - **Pharmacokinetic Modeling**: Implementation of 6-parameter model for DCE-MRI signal analysis:
   - p₀: Signal baseline
   - p₁: Response amplitude
