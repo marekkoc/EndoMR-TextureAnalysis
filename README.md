@@ -86,8 +86,7 @@ marked cross-shaped pixels featuring different signal response: 1- blood vessel,
        <td align="center"><i><span style="font-size:smaller;">d)</span></i></td>
      </tr>
      <tr>
-       <td colspan="4" align="center"><i><span style="font-size:smaller;">Pharmacokinetic derived parameter maps for patient # 197:<br>a) p<sub>1</sub>, b)
-t<sub>0</sub>, c) p<sub>3</sub>, d) p<sub>4</sub>.</span></i></td>
+       <td colspan="4" align="center"><i><span style="font-size:smaller;">Pharmacokinetic derived parameter maps for patient # 197:<br>a) p<sub>1</sub>, b)t<sub>0</sub>, c) p<sub>3</sub>, d) p<sub>4</sub>.</span></i></td>
      </tr>      
    </table>
 
