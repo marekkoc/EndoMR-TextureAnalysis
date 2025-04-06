@@ -23,6 +23,18 @@ The research was conducted on data from 14 endometrial carcinoma patients with h
    - DCE-MRI: 256×256 matrix, 12 slices, 1.17×1.17×5.0 mm³ voxels, 160 volumes at 2.49s intervals
    - DWI: 128×128 matrix, 20 slices, 2.34×2.34×6.0 mm³ voxels
   
+   <table align="center">
+     <tr>
+       <td><img src="figs/fig1a.png" alt="Results 1"></td>
+       <td><img src="figs/fig1b" alt="Results 2"></td>
+     </tr>
+     <tr>
+       <td align="center"><i><span style="font-size:smaller;">a)</span></i></td>
+       <td align="center"><i><span style="font-size:smaller;">b)</span></i></td>
+     </tr>
+   </table>
+
+  
 
 
 2. **Signal Modeling**:
