@@ -26,11 +26,11 @@ The research was conducted on data from 14 endometrial carcinoma patients with h
 
    <table align="center">
      <tr>
-       <td><img src="figs/fig1a.png" alt="img 1"></td>
-       <td><img src="figs/fig1b.png" alt="img 2"></td>
+       <td align="center"><img src="figs/fig1a.png" alt="img 1"></td>
+       <td align="center"><img src="figs/fig1b.png" alt="img 2"></td>
      </tr>
      <tr>
-       <td align="center"><i><span style="font-size:smaller;">a)</span></i></td>
+       <td align="left"><i><span style="font-size:smaller;">a)</span></i></td>
        <td align="center"><i><span style="font-size:smaller;">b)</span></i></td>
      </tr>
      <tr>
