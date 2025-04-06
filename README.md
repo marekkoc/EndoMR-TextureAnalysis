@@ -74,10 +74,10 @@ marked cross-shaped pixels featuring different signal response: 1- blood vessel,
   
     <table align="center">
      <tr>
-       <td align="center"><img src="figs/fig5a.png" alt="img 5a"></td>
-       <td align="center"><img src="figs/fig5b.png" alt="img 5b"></td>
-       <td align="center"><img src="figs/fig5c.png" alt="img 5c"></td>
-       <td align="center"><img src="figs/fig5d.png" alt="img 5d"></td>       
+       <td align="center"><img src="figs/fig5a.png" style="width: 75%; height: auto;" alt="img 5a"></td>
+       <td align="center"><img src="figs/fig5b.png" style="width: 75%; height: auto;" alt="img 5b"></td>
+       <td align="center"><img src="figs/fig5c.png" style="width: 75%; height: auto;" alt="img 5c"></td>
+       <td align="center"><img src="figs/fig5d.png" style="width: 75%; height: auto;" alt="img 5d"></td>       
      </tr>
      <tr>
        <td align="center"><i><span style="font-size:smaller;">a)</span></i></td>
