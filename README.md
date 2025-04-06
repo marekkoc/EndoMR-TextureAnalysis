@@ -114,6 +114,20 @@ marked cross-shaped pixels featuring different signal response: 1- blood vessel,
 - ADC maps also demonstrated good classification performance
 - Well-separated clusters in unsupervised analysis confirmed information content in texture features
 - Colored visualization of clustering results was assessed as useful by radiologists for anatomical and pathophysiological exploration
+  
+<table align="center">
+     <tr>
+       <td align="center"><img src="figs/fig9a.png" alt="fig9a"></td>
+       <td align="center"><img src="figs/fig9b.png" alt="fig9b"></td>
+     </tr>
+     <tr>
+       <td align="center"><i><span style="font-size:smaller;">a)</span></i></td>
+       <td align="center"><i><span style="font-size:smaller;">b)</span></i></td>
+     </tr>
+     <tr>
+       <td colspan="4" align="center"><i><span style="font-size:smaller;">Average signals measured inside ROI for patient #157. The whole signal (for each DCE examination) range divided into five clusters: a) region of interests with pixels assigned to each cluster marked with different colour, b) averaged time-courses plots in clusters.</span></i></td>
+     </tr> 
+   </table>
 
 ## Potential Applications
 - Preoperative assessment of endometrial carcinoma grade
