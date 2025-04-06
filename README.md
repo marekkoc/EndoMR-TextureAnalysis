@@ -22,7 +22,8 @@ The research was conducted on data from 14 endometrial carcinoma patients with h
    - VIBE: 192×192 matrix, 48 slices, 1.3×1.3×2.0 mm³ voxels
    - DCE-MRI: 256×256 matrix, 12 slices, 1.17×1.17×5.0 mm³ voxels, 160 volumes at 2.49s intervals
    - DWI: 128×128 matrix, 20 slices, 2.34×2.34×6.0 mm³ voxels
-  
+
+
    <table align="center">
      <tr>
        <td><img src="figs/fig1a.png" alt="img 1"></td>
