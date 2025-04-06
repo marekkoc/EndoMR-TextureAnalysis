@@ -57,12 +57,14 @@ The research was conducted on data from 14 endometrial carcinoma patients with h
   
      <table align="center">
      <tr>
-       <td><img src="figs/results1.png" alt="Results 1"></td>
-       <td><img src="figs/results2.png" alt="Results 2"></td>
+       <td align="center"><img src="figs/fig3a.png" alt="fig3a"></td>
+       <td align="center"><img src="figs/fig3b.png" alt="fig3b"></td>
+       <td align="center"><img src="figs/fig3c.png" alt="fig3c"></td>
      </tr>
      <tr>
-       <td align="center"><i><span style="font-size:smaller;">Fig. 1: Analysis window</span></i></td>
-       <td align="center"><i><span style="font-size:smaller;">Fig. 2: Parameter maps</span></i></td>
+       <td align="center"><i><span style="font-size:smaller;">a)</span></i></td>
+       <td align="center"><i><span style="font-size:smaller;">b)</span></i></td>
+       <td align="center"><i><span style="font-size:smaller;">c)</span></i></td>
      </tr>
    </table>
 
