@@ -48,7 +48,7 @@ The research was conducted on data from 14 endometrial carcinoma patients with h
 2. **Signal Modeling**:
    - 6-parameter pharmacokinetic model fitted to DCE-MRI time courses
    - Parameters include signal baseline (p₀), amplitude (p₁), transition slope (p₂), decay rate (p₃), initial rise (p₄), and bolus arrival time (t₀)
-
+     
      <br>
      <table align="center">
      <tr>
@@ -67,7 +67,7 @@ marked cross-shaped pixels featuring different signal response: 1- blood vessel,
      </tr> 
    </table>
    <br>
-
+   
 3. **Texture Analysis**:
    - Approximately 300 texture features computed using MaZda software
    - Features derived from parameter distributions within ROIs marked by radiologists
