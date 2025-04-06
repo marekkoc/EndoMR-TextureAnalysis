@@ -105,7 +105,7 @@ marked cross-shaped pixels featuring different signal response: 1- blood vessel,
        <td align="center"><i><span style="font-size:smaller;">b)</span></i></td>
      </tr>
      <tr>
-       <td colspan="4" align="center"><i><span style="font-size:smaller;">Scatterplots for first three Fisher-coefficient-ranked texture features obtained for the parameter maps of the training set: a) p1&#160;(F=93.6 for the three classes), b) ADC (F=64.7 for the three classes)</span></i></td>
+       <td colspan="4" align="center"><i><span style="font-size:smaller;">Scatterplots for first three Fisher-coefficient-ranked texture features obtained for the parameter maps of the training set: a)&nbsp;p1&#160;(F=93.6 for the three classes), b) ADC (F=64.7 for the three classes)</span></i></td>
      </tr> 
    </table>
 
