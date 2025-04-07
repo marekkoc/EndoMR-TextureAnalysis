@@ -155,6 +155,7 @@ marked cross-shaped pixels featuring different signal response: 1- blood vessel,
 - Development of AI interpretation methods (e.g., activation maps, GradCAM) for better understanding of significant regions in MR images
 - Integration of multimodal data (DCE, ADC, VIBE) in a single end-to-end deep learning model
 - Application of federated learning techniques to enable collaboration between research centers without sharing sensitive patient data
+- 3D visualizaton of ectracted regions overlaped on 3D MR image
 
 ## Publications
 1. Texture Parameters of DCE-Derived Blood Pharmacokinetic Maps as Possible Biomarkers of Endometrial Carcinoma Grade, M. Kociński, A. Materka, A. Lundervold, Helga B. Salvesen, Sigmund Ytre-Hauge, Ingfrid S. Haldorsen, Magnetic Resonance Materials in Physics, Biology and Medicine, Volume 19, Issue 1, Suplement, September 2016
