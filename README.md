@@ -159,5 +159,4 @@ marked cross-shaped pixels featuring different signal response: 1- blood vessel,
 
 ## Publications
 1. Texture Parameters of DCE-Derived Blood Pharmacokinetic Maps as Possible Biomarkers of Endometrial Carcinoma Grade, M. Kociński, A. Materka, A. Lundervold, Helga B. Salvesen, Sigmund Ytre-Hauge, Ingfrid S. Haldorsen, Magnetic Resonance Materials in Physics, Biology and Medicine, Volume 19, Issue 1, Suplement, September 2016
-
 1. Texture analysis of 2D spatial distribution of blood pharmacokinetic model parameters for endometrial carcinoma classification, M. Kociński, A. Materka, A. Lundervold, Helga B. Salvesen, Sigmund Ytre-Hauge, Ingfrid S. Haldorsen, SPA 2016, Signal Processing Algorithms, Architectures, Arrangements, and Application, 21-23 September 2016, Poznan, Poland, IEEE Conference, ([link](https://ieeexplore.ieee.org/document/7763593/))
